@@ -93,10 +93,10 @@ content:
     content:
       - layout: top-right
         title: 山东大学
-        sub_title: 学士，Measurement and Control Technology and Instruments，研究方向：控制理论与控制工程, 机器人学
+        sub_title: 学士，Measurement and Control Technology and Instruments
         caption: 2017-2020
         quote: >
-          Short institution or course description (optional)
+          研究方向：控制理论与控制工程, 机器人学
         description: | # this will include new lines to allow paragraphs
           Description of qualification
   - title: A Little More About Me
