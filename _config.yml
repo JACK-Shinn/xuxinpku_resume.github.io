@@ -19,17 +19,12 @@ website: Your website (eg. https://google.com)(optional)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
+twitter_username: xuxinthuad
+github_username:  xuxinthuad
+facebook_username: xuxinthuad
+instagram_username: xuxinthuad
+linkedin_username: xuxinthuad
+youtube_username: xuxinthuad
 orcid_username: 0000-0000-0000-0000
 googlescholar_username: D847cGsAAAAJ
 
