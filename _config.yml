@@ -76,7 +76,7 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Experience
+  - title: 工作经历
     layout: list
     content:
       - layout: right
