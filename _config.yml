@@ -6,8 +6,8 @@ repository: xuxin/resume
 version: 2
 
 # Personal info
-name: 徐鑫
-title: 高级算法工程师
+name: Xin Xu
+title: Senior Algorithm Engineer
 email: xuxinthu@gmail.com
 # email_title: Email (Email title override)
 phone: (+86) 15600367533
@@ -83,28 +83,34 @@ content:
     layout: list
     content:
       - layout: right
-        title: 小鹏汽车-自动驾驶中心
-        sub_title: 高级算法工程师
-        caption: 2022年9月 -- 至今
+        title: Xiaopeng Autonomous Driving Center
+        sub_title: Senior Algorithm Engineer
+        caption: September 2022 – Present
         link: https://www.xiaopeng.com/about.html
         quote: > 
           
         description: | # this will include new lines to allow paragraphs
-          (1) 负责小鹏P5量产车型预测模块 (CNGP)
+          (1) Responsible for Xiaopeng P5 mass production model prediction module (CNGP)
           
-          交付OTA4中的高优问题，误减速率降低20\%以上，接管率降低30\%以上
-          
-          丰富3000+不同场景的仿真测试集：路口、环岛、汇流等
-          
-          (2)负责小鹏G9量产车型预测模块(CNGP、HNGP 2.0)
-          
-          HNGP 2.0安全接管接近1次/千公里，误减速接近4次/千公里 
-          上线交互式框架小路口预测算法，自车小路口的通过能力提高30\%以上 
-          上线出口猜测以及行为模仿预测模型，使安全接管小于1次/百公里
-          (3)负责小鹏G9量产车型预测模块 (XNGP2.0)
-          上线无图路口车道线车流优化、汇流预测等，使得自车通行能力达到80\%的CNGP水平
-          OTA3持续改进路口、环岛、小路口、cruise等场景算法，修复算法毛刺，保障XNGP2.0在上海和北京的交付
-          完成XNGP2.0冲刺计划中重要feature和算法毛刺修复，接管率和误减速率均降低20\%以上
+            - Delivered high-priority issues in OTA4, reducing the rate of false deceleration by over 20% and decreasing the takeover rate by over 30%.
+            
+            - Enriched a simulation test dataset with over 3000 different scenarios, including intersections, roundabouts, and merge scenarios.
+
+          (2) Responsible for Xiaopeng G9 mass production model prediction module (CNGP, HNGP 2.0)
+
+            - Achieved safety takeovers close to 1 per thousand kilometers for HNGP 2.0 and reduced false decelerations to nearly 4 per thousand kilometers.
+    
+            - Implemented interactive framework for small intersection prediction algorithms, increasing the vehicle's passing capability at small intersections by over 30%.
+    
+            - Introduced exit prediction and behavior imitation prediction models, resulting in safety takeovers occurring less than 1 per hundred kilometers.
+
+          (3) Responsible for Xiaopeng G9 mass production model prediction module (XNGP 2.0)
+
+            - Implemented features such as lane optimization at unmarked intersections and merge predictions, achieving a vehicle's passing capability comparable to CNGP at 80%.
+    
+            - Continuously improved algorithms for scenarios including intersections, roundabouts, small intersections, and cruise control in OTA3, addressing algorithm glitches and ensuring successful deployments in Shanghai and Beijing.
+    
+            - Completed crucial feature enhancements and algorithm glitch fixes in the XNGP 2.0 sprint plan, resulting in a reduction of takeover rates and false deceleration rates by over 20%.
 
       - layout: right
         title: 京东集团-X 研究部
