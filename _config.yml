@@ -132,27 +132,17 @@ content:
   - title: Papers
     layout: text
     content: | # this will include new lines to allow paragraphs
-      1. Motion Planning in Complex Urban Environments: An Industrial Application on Autonomous Last-Mile Delivery Vehicles
-      
-        - Journal: Journal of Field Robotics (JFR), 2022
-        
-        - Authorship: Corresponding Author
-        
-        - Impact Factor: 8.3
-        
-        - Journal Rank: Q1
-        
-        - Top-tier Journal in the Field of Robotics
-
-      2. Lane Keeping Algorithm for Autonomous Driving via Safe Reinforcement Learning
-      
-        - Conference: International Conference on Knowledge Science, Engineering and Management (KSEM), 2021
-        
-        - Authorship: Corresponding Author
-        
-        - Conference Rank: CCF-C Category
-
-
+      1. Motion planning in complex urban environments: An industrial application on autonomous last‐mile delivery vehicles. Journal of Field Robotics (JFR), 2022. (Corresponding Author, Impact Factor: 8.3, Q1, Top-tier journal in robotics field)
+      2. Lane Keeping Algorithm for Autonomous Driving via Safe Reinforcement Learning. International Conference on Knowledge Science, Engineering and Management (KSEM), 2021. (Corresponding Author, CCF-C conference)
+      3. ODNASSD: An End-to-end Object Detection Neural Architecture Search Space Design. IEEE International Intelligent Transportation Systems Conference (ITSC), 2021. (Corresponding Author, Top conference in autonomous driving field)
+      4. Learning Bilevel Sparse Regularized Neural Network. CAAI International Conference on Artificial Intelligence, 2021. (First Author, Top conference organized by the Chinese Association for Artificial Intelligence)
+      5. MITNet: Multi-intention Trajectory Network for Motion Prediction. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. (Corresponding Author, Best Paper Award)
+      6. Enhanced-historical average for long-term prediction. IEEE International Conference on Computer, Control and Robotics (ICCCR), 2022. (First Author)
+      7. Constrained policy optimization algorithm for autonomous driving via reinforcement learning. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. (Corresponding Author)
+      8. Control algorithm of path planning and path tracking for automated valet parking. Journal of Physics: Conference Series, 2022. (Corresponding Author)
+      9. Outdoor real-time RGBD sensor fusion of stereo camera and sparse lidar. Journal of Physics: Conference Series, 2022. (Corresponding Author)
+      10. Vehicle Localization with Surveillance Cameras. IEEE International Conference on Vision, Image and Signal Processing (ICVISP), 2021. (Corresponding Author)
+      11. VPNet: Vision and Planning Network for Robotic Navigation. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. (Corresponding Author)
 
 
   - title: Papers
