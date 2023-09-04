@@ -83,15 +83,21 @@ content:
         sub_title: 高级算法工程师
         caption: 2022年9月 -- 至今
         link: https://www.xiaopeng.com/about.html
-        quote: >
+        quote: > 11111111111111
         description: | # this will include new lines to allow paragraphs
+        111111111111111111111111111111111111111111111111111111111111
+        2222222222222222222222222222222222222222222222222222222222222222
+        33333333333333333333333333333333333333
       - layout: right
-        title: 小鹏汽车-自动驾驶中心
-        sub_title: 高级算法工程师
-        caption: 2022年9月 -- 至今
-        link: https://www.xiaopeng.com/about.html
-        quote: >
+        title: 京东集团-X 研究部
+        sub_title: 算法工程师
+        caption: 2020年8月 -- 2022年8月
+        link: https://neuhub.jd.com/brand/1
+        quote: > 111111111111
         description: | # this will include new lines to allow paragraphs
+              111111111111111111111111111111111111111111111111111111111111
+        2222222222222222222222222222222222222222222222222222222222222222
+        33333333333333333333333333333333333333
 
 
    
