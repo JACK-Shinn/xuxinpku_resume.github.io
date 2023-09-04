@@ -84,8 +84,13 @@ content:
         caption: 2022年9月 -- 至今
         link: https://www.xiaopeng.com/about.html
         quote: >
-   
-       
+        description: | # this will include new lines to allow paragraphs
+      - layout: right
+        title: 小鹏汽车-自动驾驶中心
+        sub_title: 高级算法工程师
+        caption: 2022年9月 -- 至今
+        link: https://www.xiaopeng.com/about.html
+        quote: >
         description: | # this will include new lines to allow paragraphs
 
 
