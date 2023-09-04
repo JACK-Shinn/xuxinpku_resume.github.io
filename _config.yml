@@ -84,16 +84,18 @@ content:
         caption: 2022年9月 -- 至今
         link: https://www.xiaopeng.com/about.html
         quote: > 
+          111
         description: | # this will include new lines to allow paragraphs
-        111111111111111111111111111111111111111111111111111111111111
-        2222222222222222222222222222222222222222222222222222222222222222
-        33333333333333333333333333333333333333
+          111111111111111111111111111111111111111111111111111111111111
+          2222222222222222222222222222222222222222222222222222222222222222
+          33333333333333333333333333333333333333
       - layout: right
         title: 京东集团-X 研究部
         sub_title: 算法工程师
         caption: 2020年8月 -- 2022年8月
         link: https://neuhub.jd.com/brand/1
         quote: > 
+          
         description: | # this will include new lines to allow paragraphs
 
 
