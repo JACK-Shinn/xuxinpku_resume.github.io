@@ -121,36 +121,55 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: 清华大学
-        sub_title: 硕士, Instrumentation and Measurement Engineering
+        title: Tsinghua University
+        sub_title: Master's Degree, Instrumentation and Measurement Engineering
         caption: 2017 -- 2020
         quote: >
-          Short institution or course description (optional)
+          
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Research Focus: Machine Learning, Deep Learning, Computer Vision
+
+      - layout: top-right
+        title: Shandong University
+        sub_title: Bachelor's Degree, Measurement and Control Technology and Instruments
+        caption: 2017 -- 2020
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          Research Focus: Control Theory and Control Engineering, Robotics
           
   - title: Papers
     layout: text
     content: | # this will include new lines to allow paragraphs
       1. Motion planning in complex urban environments: An industrial application on autonomous last‐mile delivery vehicles. Journal of Field Robotics (JFR), 2022. (Corresponding Author, Impact Factor: 8.3, Q1, Top-tier journal in robotics field)
+      
       2. Lane Keeping Algorithm for Autonomous Driving via Safe Reinforcement Learning. International Conference on Knowledge Science, Engineering and Management (KSEM), 2021. (Corresponding Author, CCF-C conference)
+      
       3. ODNASSD: An End-to-end Object Detection Neural Architecture Search Space Design. IEEE International Intelligent Transportation Systems Conference (ITSC), 2021. (Corresponding Author, Top conference in autonomous driving field)
+      
       4. Learning Bilevel Sparse Regularized Neural Network. CAAI International Conference on Artificial Intelligence, 2021. (First Author, Top conference organized by the Chinese Association for Artificial Intelligence)
+      
       5. MITNet: Multi-intention Trajectory Network for Motion Prediction. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. (Corresponding Author, Best Paper Award)
+      
       6. Enhanced-historical average for long-term prediction. IEEE International Conference on Computer, Control and Robotics (ICCCR), 2022. (First Author)
+      
       7. Constrained policy optimization algorithm for autonomous driving via reinforcement learning. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. (Corresponding Author)
+      
       8. Control algorithm of path planning and path tracking for automated valet parking. Journal of Physics: Conference Series, 2022. (Corresponding Author)
+      
       9. Outdoor real-time RGBD sensor fusion of stereo camera and sparse lidar. Journal of Physics: Conference Series, 2022. (Corresponding Author)
+      
       10. Vehicle Localization with Surveillance Cameras. IEEE International Conference on Vision, Image and Signal Processing (ICVISP), 2021. (Corresponding Author)
+      
       11. VPNet: Vision and Planning Network for Robotic Navigation. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. (Corresponding Author)
 
 
-  - title: Papers
+  - title: 发明专利
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      
 
 # Footer
 footer_show_references: true
