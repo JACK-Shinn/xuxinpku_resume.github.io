@@ -83,7 +83,7 @@ content:
     layout: list
     content:
       - layout: right
-        title: Xiaopeng Autonomous Driving Center
+        title: Xiaopeng Autonomous Driving Center, Shanghai
         sub_title: Senior Algorithm Engineer
         caption: September 2022 – Present
         link: https://www.xiaopeng.com/about.html
@@ -113,13 +113,28 @@ content:
             - Completed crucial feature enhancements and algorithm glitch fixes in the XNGP 2.0 sprint plan, resulting in a reduction of takeover rates and false deceleration rates by over 20%.
 
       - layout: right
-        title: 京东集团-X 研究部
+        title: JD Group - X Research Department, Beijing
         sub_title: 算法工程师
-        caption: 2020年8月 -- 2022年8月
+        caption: August 2020 – August 2022
         link: https://neuhub.jd.com/brand/1
         quote: > 
           
         description: | # this will include new lines to allow paragraphs
+          (1) Cutting-Edge Algorithm Research
+          
+            - Published 11 international top-tier/high-level academic papers during my tenure
+            
+            - Filed 66 invention patents during my tenure, with 7 patents currently granted
+            
+            - Served as a reviewer for over ten international top-tier conferences/journals (CVPR 2022, ICML 2022, etc.)
+
+          (2) Responsible for the Prediction Trajectory Prediction Module
+          
+            - Utilized deep learning methods (LSTM) combined with rules to predict the future movement trajectories of obstacles, resulting in the deployment of the ROVER 5.0 model and a 1.5% improvement in the ADE metric for daily simulation tasks.
+            
+            - Enhanced efficiency by conducting experiments for over 200 models in a short period, reducing training time from 7 days to 8 hours.
+            
+            - Combined LSTM networks with VectorNet, further improving the ADE metric by 2%.
 
 
 
