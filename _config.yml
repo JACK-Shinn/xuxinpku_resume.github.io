@@ -59,26 +59,6 @@ about_content: |
   These cumulative experiences have not only sharpened my skills but also ignited a profound passion for research and development in these domains. I am wholeheartedly dedicated to pushing the boundaries of knowledge and technology, with the ultimate goal of driving innovation and delivering groundbreaking solutions in the world of autonomous driving.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
@@ -136,12 +116,7 @@ content:
             
             - Combined LSTM networks with VectorNet, further improving the ADE metric by 2%.
 
-
-
-   
-      
-   
-
+            
   - title: Education
     layout: list
     content:
@@ -153,7 +128,91 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-  - title: A Little More About Me
+  - title: Papers
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      1. Motion Planning in Complex Urban Environments: An Industrial Application on Autonomous Last-Mile Delivery Vehicles
+      
+        - Journal: Journal of Field Robotics (JFR), 2022
+        
+        - Authorship: Corresponding Author
+        
+        - Impact Factor: 8.3
+        
+        - Journal Rank: Q1
+        
+        - Top-tier Journal in the Field of Robotics
+
+      2. Lane Keeping Algorithm for Autonomous Driving via Safe Reinforcement Learning
+      
+        - Conference: International Conference on Knowledge Science, Engineering and Management (KSEM), 2021
+        
+        - Authorship: Corresponding Author
+        
+        - Conference Rank: CCF-C Category
+
+      3. ODNASSD: An End-to-End Object Detection Neural Architecture Search Space Design
+      
+        - Conference: IEEE International Intelligent Transportation Systems Conference (ITSC), 2021
+        
+        - Authorship: Corresponding Author
+        
+        - Top-tier Conference in the Field of Autonomous Driving
+
+      4. Learning Bilevel Sparse Regularized Neural Network
+      
+        - Conference: CAAI International Conference on Artificial Intelligence, 2021
+        
+        - Authorship: First Author
+        
+        - Hosted by the Chinese Association for Artificial Intelligence (CAAI), a Top-tier Conference
+
+      5. MITNet: Multi-Intention Trajectory Network for Motion Prediction
+      
+        - Conference: IEEE International Conference on Image, Vision and Computing (ICIVC), 2021
+        
+        - Authorship: Corresponding Author
+        
+        - Received Best Paper Award
+
+      6. Enhanced-Historical Average for Long-Term Prediction
+      
+        - Conference: IEEE International Conference on Computer, Control and Robotics (ICCCR), 2022
+        
+        - Authorship: First Author
+
+      7. Constrained Policy Optimization Algorithm for Autonomous Driving via Reinforcement Learning
+      
+        - Conference: IEEE International Conference on Image, Vision and Computing (ICIVC), 2021
+        
+        - Authorship: Corresponding Author
+
+      8. Control Algorithm of Path Planning and Path Tracking for Automated Valet Parking
+      
+        - Journal: Journal of Physics: Conference Series, 2022
+        
+        - Authorship: Corresponding Author
+
+      9. Outdoor Real-Time RGBD Sensor Fusion of Stereo Camera and Sparse Lidar
+      
+        - Journal: Journal of Physics: Conference Series, 2022
+        
+        - Authorship: Corresponding Author
+
+     10. Vehicle Localization with Surveillance Cameras
+     
+        - Conference: IEEE International Conference on Vision, Image and Signal Processing (ICVISP), 2021
+        
+        - Authorship: Corresponding Author
+
+     11. VPNet: Vision and Planning Network for Robotic Navigation
+     
+        - Conference: IEEE International Conference on Image, Vision and Computing (ICIVC), 2021
+        
+        - Authorship: Corresponding Author
+
+
+  - title: Papers
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
