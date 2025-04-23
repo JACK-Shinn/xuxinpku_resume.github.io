@@ -7,10 +7,10 @@ version: 2
 
 # Personal info
 name: Xin Xu
-title: Senior Algorithm Engineer
-email: xuxinthu@gmail.com
+title: Computer Science and Technology (Intelligent Science and Technology)
+email: xuxinpkucs@gmail.com
 # email_title: Email (Email title override)
-phone: (+86)  13121058823
+phone: (+86) 13407228245
 # phone_title: Phone (Phone title override)
 # website: https://xuxinthuad.github.io/
 # website_title: Web (Website title override)
@@ -20,18 +20,18 @@ darkmode: false
 
 # Social links
 # twitter_username: xuxinthu
-github_username:  xuxinthu
+github_username:  JACK-Shinn
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: xuxinthu
 # flickr_username: jekyll
 # instagram_username: xuxinthu
-linkedin_username: david-xu-1a298828b
+# linkedin_username: david-xu-1a298828b
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: xuxinthu
 # orcid_username: 0000-0000-0000-0000
-googlescholar_username: sPcjwrIAAAAJ
+# googlescholar_username: sPcjwrIAAAAJ
 
 # Additional icon links
 # additional_links:
@@ -52,11 +52,7 @@ googlescholar_username: sPcjwrIAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/xuxin_me.jpg
 about_content: | 
-  I am currently serving as a Senior Algorithm Engineer at Xiaopeng Autonomous Driving Center, where I have the privilege of contributing significantly to the advancement of autonomous driving technology. My academic journey includes obtaining a Master's degree from the Department of Precision Instruments at Tsinghua University, following the completion of my Bachelor of Engineering (B.Eng) degree in the Department of Automatic Control at Shandong University in 2017.
-
-  My professional journey commenced as an Algorithm Engineer at JD X Research Department, where I immersed myself in cutting-edge projects that laid a strong foundation for my career. Building on that invaluable experience, my current role at Xiaopeng Autonomous Driving Center empowers me to delve deeper into the realms of machine learning, with a primary focus on their applications in the field of autonomous driving.
-
-  These cumulative experiences have not only sharpened my skills but also ignited a profound passion for research and development in these domains. I am wholeheartedly dedicated to pushing the boundaries of knowledge and technology, with the ultimate goal of driving innovation and delivering groundbreaking solutions in the world of autonomous driving.
+  Ph.D. in Artificial Intelligence, School of Intelligence Science and Technology, Peking University (2020–2025), specializing in large language models (LLMs) and sequence modeling, where I pioneered architectures for efficient long-context reasoning, Advised by Prof. Zhouchen Lin (IEEE Fellow). Previously, as an M.S. candidate at Tsinghua University, and hold a B.Eng. in Automatic Control (Shandong University, Top 1%). My work bridges theoretical innovation (state-space models, hybrid expert systems) with LLM.
 
 content:
   - title: Experience
@@ -121,6 +117,15 @@ content:
     layout: list
     content:
       - layout: top-right
+        title: Peking University
+        sub_title: Ph.D. in Computer Science and Technology (Intelligent Science and Technology)
+        caption: 2020 -- 2025
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          Research Focus: Large Language Models (LLMs), Sequence Modeling, State Space Models
+    
+      - layout: top-right
         title: Tsinghua University
         sub_title: Master's Degree, Instrumentation and Measurement Engineering
         caption: 2017 -- 2020
@@ -141,171 +146,27 @@ content:
   - title: Papers
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Motion planning in complex urban environments: An industrial application on autonomous last‐mile delivery vehicles. Journal of Field Robotics (JFR), 2022. (Corresponding Author, Impact Factor: 8.3, Q1, Top-tier journal in robotics field)
-      
-      - Lane Keeping Algorithm for Autonomous Driving via Safe Reinforcement Learning. International Conference on Knowledge Science, Engineering and Management (KSEM), 2021. (Corresponding Author, CCF-C conference)
-      
-      - ODNASSD: An End-to-end Object Detection Neural Architecture Search Space Design. IEEE International Intelligent Transportation Systems Conference (ITSC), 2021. (Corresponding Author, Top conference in autonomous driving field)
-      
-      - Learning Bilevel Sparse Regularized Neural Network. CAAI International Conference on Artificial Intelligence, 2021. (First Author, Top conference organized by the Chinese Association for Artificial Intelligence)
-      
-      - MITNet: Multi-intention Trajectory Network for Motion Prediction. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. (Corresponding Author, Best Paper Award)
-      
-      - Enhanced-historical average for long-term prediction. IEEE International Conference on Computer, Control and Robotics (ICCCR), 2022. (First Author)
-      
-      - Constrained policy optimization algorithm for autonomous driving via reinforcement learning. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. (Corresponding Author)
-      
-      - Control algorithm of path planning and path tracking for automated valet parking. Journal of Physics: Conference Series, 2022. (Corresponding Author)
-      
-      - Outdoor real-time RGBD sensor fusion of stereo camera and sparse lidar. Journal of Physics: Conference Series, 2022. (Corresponding Author)
-      
-      - Vehicle Localization with Surveillance Cameras. IEEE International Conference on Vision, Image and Signal Processing (ICVISP), 2021. (Corresponding Author)
-      
-      - VPNet: Vision and Planning Network for Robotic Navigation. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. (Corresponding Author)
+  - Xin Xu, and Zhouchen Lin. "MixCon: A Hybrid Architecture for Efficient and Adaptive Sequence Modeling." European Conference on Artificial Intelligence, 2024. \href{https://github.com/JACK-Shinn/MixCon/blob/main/MixCon.pdf}{[paper]}\href{https://github.com/JACK-Shinn/MixCon/tree/main/MixCon/MixCon}{[code]}\\
+  
+
+  - Xin Xu, and Zhouchen Lin. "Vision Conba: An Efficient and Adaptive Vision Sequence Analysis Framework." \href{https://github.com/JACK-Shinn/AAAI25_VisionConba/blob/main/AAAI25_Vision_Conba.pdf}{[paper]}
+
+  - Xin Xu, Yisen wang and Zhouchen Lin. "VideoConba: An Efficient and Adaptive Framework for Video Understanding." \href{https://github.com/JACK-Shinn/CVPR25_VideoConba/blob/main/CVPR25_Video_Conba.pdf}{[paper]}
+
+  - Xin Xu, and Zhouchen Lin. "Learning Nonseparable Sparse Regularizers via Multivariate Activation Functions." \href{https://github.com/JACK-Shinn/MAF_SRL/blob/main/ICML21_MAF_SRL.pdf}{[paper]}\href{https://github.com/JACK-Shinn/MAF_SRL/blob/main/ICML21_MAF_SRL_Appendix.pdf}{[Appendix]}
 
 
   - title: 发明专利
     layout: text
     content: | # this will include new lines to allow paragraphs
-      已授权专利：
-      
-      - CN113119996B，一种轨迹预测方法、装置、电子设备及存储介质
-      
-      - CN112896191B，轨迹处理方法、装置、电子设备和计算机可读介质
-      
-      - CN112896191B，轨迹处理方法、装置、电子设备和计算机可读介质
-      
-      - CN113548052B，无人驾驶车辆换道控制方法和装置 
-      
-      - CN113978548B，应用于无人车的转向协同控制方法、装置、设备及介质
-      
-      - CN113561972B，一种避障控制方法、装置、车辆和存储介质
-      
-      - CN114664098B，一种路权分配方法和装置
-      
-      已受理专利：
-      - CN114581868A，基于模型通道剪枝的图像分析方法和装置
+      - 林宙辰，\textbf{徐鑫}. 基于凸多面体分段线性分类的二叉划分树车牌识别方法. 公开号：CN111598080A.
 
-      - CN113780270A，目标检测方法和装置
-
-      - CN114998388A，轨迹预测方法和装置
-
-      - CN114842460A，一种场景文字检测的方法和装置
-
-      - CN114549838A，分割点云数据的方法、装置、设备和计算机可读介质
-
-      - CN114445630A，图像分割及模型训练方法、装置、终端设备及存储介质
-
-      - CN114187589A，一种目标检测方法、装置、设备和存储介质
-
-      - CN114187311A，一种图像语义分割方法、装置、设备及存储介质
-
-      - CN113838113A，三维物体识别方法和装置
-
-      - CN113703453A，确定行驶轨迹的方法、装置、电子设备及存储介质
-      
-      - CN114936670A，一种交通预测的方法和装置
-
-      - CN114821537A，活动意图预测方法、装置及无人车
-
-      - CN114399107A，一种交通状态感知信息的预测方法及系统
-
-      - CN114386481A，一种车辆感知信息融合方法、装置、设备及存储介质
-
-      - CN114387325A，一种图像特征处理方法和装置
-
-      - CN113947948A，一种车辆通行控制方法和装置
-
-      - CN113808187A，视差图生成方法、装置、电子设备和计算机可读介质
-
-      - CN115272666A，在线点云语义分割方法、装置、存储介质及电子设备
-
-      - CN114371709A，路径规划方法、设备、存储介质及程序产品
-
-      - CN114261400A，一种自动驾驶决策方法、装置、设备和存储介质
-
-      - CN113971727A，一种语义分割模型的训练方法、装置、设备和介质
-
-      - CN114537421A，调整系统故障的方法、装置、设备和计算机可读介质
-
-      - CN114091592A，一种车辆感知信息融合方法、装置、设备及存储介质
-
-      - CN114212104A，车辆控制方法、装置、车辆和存储介质
-
-      - CN113989757A，辅助驾驶方法、装置、电子设备及存储介质
-
-      - CN113807351A，一种场景文字检测方法和装置
-
-      - CN114771570A，自动驾驶车辆的控制方法和装置
-
-      - CN114771555A，自主泊车故障诊断方法、装置和和无人驾驶车辆
-
-      - CN114022663A，目标行为候选框生成方法及装置、电子设备、存储介质
-
-      - CN114663848A，一种基于知识蒸馏的目标检测方法和装置
-
-      - CN114580539A，一种车辆驾驶策略处理方法和装置
-
-      - CN114399791A，一种行人检测方法、装置、设备和介质
-
-      - CN113792655A，一种意图识别方法、装置、电子设备及计算机可读介质
-
-      - CN113780148A，交通标志图像识别模型训练方法和交通标志图像识别方法
-
-      - CN114140468A，三维点云的语义确定方法和装置
-      
-      - CN113849400A，一种测试场景库生成方法、装置、设备及存储介质
-
-      - CN113691606A，任务卸载方法、装置、电子设备、系统和存储介质
-      
-      - CN114604273A，车辆轨迹规划方法、装置、存储介质及电子设备
-      
-      - CN114167874A，信息更新方法、路线筛选方法、装置、设备和介质
-
-      - CN113031600A 一种轨迹生成方法、装置、存储介质及电子设备
-
-      - CN114841276A，数据处理方法和装置、电子设备、计算机可读介质
-
-      - CN114677440A，图像数据处理方法、装置和设备
-
-      - CN114670871A，一种自动驾驶车辆的预测控制方法和装置
-
-      - CN114387197A，一种双目图像处理方法、装置、设备和存储介质
-
-      - CN114359893A，物体检测方法、装置、电子设备和存储介质
-
-      - CN113781540A，网络生成方法、装置、电子设备和计算机可读介质
-
-      - CN114889603A，一种车辆换道处理方法和装置
-
-      - CN114675655A，一种车辆控制方法及装置
-
-      - CN114495058A，交通标志检测方法和装置
-
-      - CN114004406A，车辆轨迹预测方法、装置、存储介质及电子设备
-
-      - CN113781539A，深度信息获取方法、装置、电子设备和计算机可读介质
-
-      - CN115130680A，机器学习模型的训练方法、无人车的控制方法和无人车
-
-      - CN114954520A，一种控制无人驾驶车辆的方法和装置
-
-      - CN114834467A，自动驾驶车辆的控制运行方法、装置及无人车
-
-      - CN114021840A，换道策略生成方法和装置、计算机存储介质、电子设备
-
-      - CN114834469A，人机共驾冲突控制方法、装置、存储介质及电子设备
-
-      - CN114735027A，应用于无人车的运行决策方法及装置
-
-      - CN114818498A，匝道汇入策略学习方法、装置、电子设备和存储介质
-
-      - CN114004972A，一种图像语义分割方法、装置、设备和存储介质
+      - 林宙辰，\textbf{徐鑫}. 基于多元激活函数的稀疏正则化神经网络的图像分类方法. 公开号：CN113313175A.
       
 
 # Footer
 footer_show_references: true
-references_title: https://xuxinthuad.github.io/xuxinthuad_resume.github.io/
+references_title: https://jack-shinn.github.io/xuxinpku_resume.github.io/
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
