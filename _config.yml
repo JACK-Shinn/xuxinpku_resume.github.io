@@ -56,61 +56,47 @@ about_content: |
 
 content:
   - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Xiaopeng - Autonomous Driving Center, Shanghai
-        sub_title: Senior Algorithm Engineer
-        caption: September 2022 – Present
-        link: https://www.xiaopeng.com/about.html
-        quote: > 
-          
-        description: | # this will include new lines to allow paragraphs
-          (1) Responsible for Xiaopeng P5 mass production model prediction module (CNGP)
-          
-            - Delivered high-priority issues in OTA4, reducing the rate of false deceleration by over 20% and decreasing the takeover rate by over 30%.
-            
-            - Enriched a simulation test dataset with over 3000 different scenarios, including intersections, roundabouts, and merge scenarios.
+  layout: list
+  content:
+    - layout: right
+      title: MixCon Architecture for Long-Context Modeling
+      quote: > 
+        "Redefining efficiency frontiers in long-sequence processing through control-inspired adaptive mechanisms"
+      description: |
+        • Proposed Conba architecture integrating control theory principles (feedback loops, adaptive gain) with sequence modeling, achieving 40% faster convergence than Transformer baselines<br>
+        • Designed MixCon hybrid architecture combining Conba layers, Transformer blocks, and dynamic MoE routing, enabling 128K-token context processing on single GPUs<br>
+        • Implemented hardware-aware kernel optimizations achieving 1.5× throughput over Jamba and 4.5× over Mixtral on A800 GPUs<br>
+        • Attained SOTA on HellaSwag (89.3) and WinoGrande (87.6) while reducing memory overhead by 63% through selective state updates
 
-          (2) Responsible for Xiaopeng G9 mass production model prediction module (CNGP, HNGP 2.0)
+    - layout: right
+      title: Vision Conba (ViC) for Multimodal Understanding
+      quote: > 
+        "Bridging local-global visual semantics through biologically inspired state propagation"
+      description: |
+        • Developed SBSM module enabling simultaneous local feature preservation and global context aggregation<br>
+        • Achieved 85.4% ImageNet top-1 accuracy (11.9% absolute improvement) via adaptive receptive field control<br>
+        • Designed shift-equivariant Conba blocks reducing texture bias by 38% compared to standard CNNs<br>
+        • Extended to detection/segmentation tasks: ViC-T attained 58.9 box AP on COCO (4.2 gain over Swin-L) with 30% fewer FLOPs
 
-            - Achieved safety takeovers close to 1 per thousand kilometers for HNGP 2.0 and reduced false decelerations to nearly 4 per thousand kilometers.
-    
-            - Implemented interactive framework for small intersection prediction algorithms, increasing the vehicle's passing capability at small intersections by over 30%.
-    
-            - Introduced exit prediction and behavior imitation prediction models, resulting in safety takeovers occurring less than 1 per hundred kilometers.
+    - layout: right
+      title: Video Conba for Spatiotemporal Modeling
+      quote: > 
+        "Temporal reasoning meets control-theoretic stability in video architectures"
+      description: |
+        • Created 3D-Conba blocks combining causal/non-causal temporal modeling with spatial SSMs<br>
+        • Introduced differential positional encoding adapting to motion magnitudes (3.2% accuracy boost)<br>
+        • Achieved 82.1% on Kinetics-400 (2.0% over ViT-L) with 45% less memory consumption<br>
+        • Demonstrated 6.1% superiority over ViS4mer in 10-minute video understanding tasks through multiscale state compression
 
-          (3) Responsible for Xiaopeng G9 mass production model prediction module (XNGP 2.0)
-
-            - Implemented features such as lane optimization at unmarked intersections and merge predictions, achieving a vehicle's passing capability comparable to CNGP at 80%.
-    
-            - Continuously improved algorithms for scenarios including intersections, roundabouts, small intersections, and cruise control in OTA3, addressing algorithm glitches and ensuring successful deployments in Shanghai and Beijing.
-    
-            - Completed crucial feature enhancements and algorithm glitch fixes in the XNGP 2.0 sprint plan, resulting in a reduction of takeover rates and false deceleration rates by over 20%.
-
-      - layout: right
-        title: JD Group - X Research Department, Beijing
-        sub_title: Algorithm Engineer
-        caption: August 2020 – August 2022
-        link: https://neuhub.jd.com/brand/1
-        quote: > 
-          
-        description: | # this will include new lines to allow paragraphs
-          (1) Cutting-Edge Algorithm Research
-          
-            - Published 11 international top-tier/high-level academic papers during my tenure
-            
-            - Filed 66 invention patents during my tenure, with 7 patents currently granted
-            
-            - Served as a reviewer for over ten international top-tier conferences/journals (CVPR 2022, ICML 2022, etc.)
-
-          (2) Responsible for the Prediction Trajectory Prediction Module
-          
-            - Utilized deep learning methods (LSTM) combined with rules to predict the future movement trajectories of obstacles, resulting in the deployment of the ROVER 5.0 model and a 1.5% improvement in the ADE metric for daily simulation tasks.
-            
-            - Enhanced efficiency by conducting experiments for over 200 models in a short period, reducing training time from 7 days to 8 hours.
-            
-            - Combined LSTM networks with VectorNet, further improving the ADE metric by 2%.
+    - layout: right
+      title: Conba4D for 4D Perception
+      quote: > 
+        "Spatiotemporal intelligence through decoupled hierarchical state spaces"
+      description: |
+        • Developed disentangled spatial-temporal Conba modules enabling efficient 4D processing<br>
+        • Introduced dynamic kernel adjustment reducing GPU memory by 87.5% in 256-frame sequences<br>
+        • Achieved 93.23% on MSR-Action3D (SOTA) via learnable spatiotemporal scanning strategies<br>
+        • Enabled real-time 4D perception at 58 FPS (5.36× speedup) while maintaining 94% of offline accuracy
 
             
   - title: Education
@@ -146,22 +132,21 @@ content:
   - title: Papers
     layout: text
     content: | # this will include new lines to allow paragraphs
-  - Xin Xu, and Zhouchen Lin. "MixCon: A Hybrid Architecture for Efficient and Adaptive Sequence Modeling." European Conference on Artificial Intelligence, 2024. \href{https://github.com/JACK-Shinn/MixCon/blob/main/MixCon.pdf}{[paper]}\href{https://github.com/JACK-Shinn/MixCon/tree/main/MixCon/MixCon}{[code]}\\
+  - Xin Xu, and Zhouchen Lin. "MixCon: A Hybrid Architecture for Efficient and Adaptive Sequence Modeling." European Conference on Artificial Intelligence, 2024.
   
+  - Xin Xu, and Zhouchen Lin. "Vision Conba: An Efficient and Adaptive Vision Sequence Analysis Framework."
 
-  - Xin Xu, and Zhouchen Lin. "Vision Conba: An Efficient and Adaptive Vision Sequence Analysis Framework." \href{https://github.com/JACK-Shinn/AAAI25_VisionConba/blob/main/AAAI25_Vision_Conba.pdf}{[paper]}
+  - Xin Xu, Yisen wang and Zhouchen Lin. "VideoConba: An Efficient and Adaptive Framework for Video Understanding."
 
-  - Xin Xu, Yisen wang and Zhouchen Lin. "VideoConba: An Efficient and Adaptive Framework for Video Understanding." \href{https://github.com/JACK-Shinn/CVPR25_VideoConba/blob/main/CVPR25_Video_Conba.pdf}{[paper]}
-
-  - Xin Xu, and Zhouchen Lin. "Learning Nonseparable Sparse Regularizers via Multivariate Activation Functions." \href{https://github.com/JACK-Shinn/MAF_SRL/blob/main/ICML21_MAF_SRL.pdf}{[paper]}\href{https://github.com/JACK-Shinn/MAF_SRL/blob/main/ICML21_MAF_SRL_Appendix.pdf}{[Appendix]}
+  - Xin Xu, and Zhouchen Lin. "Learning Nonseparable Sparse Regularizers via Multivariate Activation Functions." 
 
 
   - title: 发明专利
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - 林宙辰，\textbf{徐鑫}. 基于凸多面体分段线性分类的二叉划分树车牌识别方法. 公开号：CN111598080A.
+      - 林宙辰，徐鑫. 基于凸多面体分段线性分类的二叉划分树车牌识别方法. 公开号：CN111598080A.
 
-      - 林宙辰，\textbf{徐鑫}. 基于多元激活函数的稀疏正则化神经网络的图像分类方法. 公开号：CN113313175A.
+      - 林宙辰，徐鑫. 基于多元激活函数的稀疏正则化神经网络的图像分类方法. 公开号：CN113313175A.
       
 
 # Footer
