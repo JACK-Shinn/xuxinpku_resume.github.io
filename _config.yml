@@ -1,178 +1,145 @@
-# Site
+---
 repository: xuxin/resume
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
-# Content configuration version
 version: 2
-
-# Personal info
 name: Xin Xu
 title: Computer Science and Technology (Intelligent Science and Technology)
 email: xuxinpkucs@gmail.com
-# email_title: Email (Email title override)
 phone: (+86) 13407228245
-# phone_title: Phone (Phone title override)
-# website: https://xuxinthuad.github.io/
-# website_title: Web (Website title override)
-
-# Dark Mode (true/false/never)
 darkmode: false
-
-# Social links
-# twitter_username: xuxinthu
-github_username:  JACK-Shinn
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: xuxinthu
-# flickr_username: jekyll
-# instagram_username: xuxinthu
-# linkedin_username: david-xu-1a298828b
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: xuxinthu
-# orcid_username: 0000-0000-0000-0000
-# googlescholar_username: sPcjwrIAAAAJ
-
-# Additional icon links
-# additional_links:
-# - title: Link name
-#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me (Use this to override about section title)
+github_username: JACK-Shinn
 about_profile_image: images/xuxin_me.jpg
-about_content: | 
-  Ph.D. in Artificial Intelligence, School of Intelligence Science and Technology, Peking University (2020–2025), specializing in large language models (LLMs) and sequence modeling, where I pioneered architectures for efficient long-context reasoning, Advised by Prof. Zhouchen Lin (IEEE Fellow). Previously, as an M.S. candidate at Tsinghua University, and hold a B.Eng. in Automatic Control (Shandong University, Top 1%). My work bridges theoretical innovation (state-space models, hybrid expert systems) with LLM.
-
+about_content: >
+  Ph.D. in Artificial Intelligence, School of Intelligence Science
+  and Technology, Peking University (2020–2025), specializing in large language
+  models (LLMs) and sequence modeling, where I pioneered architectures for
+  efficient long-context reasoning, Advised by Prof. Zhouchen Lin (IEEE Fellow).
+  Previously, as an M.S. candidate at Tsinghua University, and hold a B.Eng. in
+  Automatic Control (Shandong University, Top 1%). My work bridges theoretical
+  innovation (state-space models, hybrid expert systems) with LLM.
 content:
   - title: Experience
-  layout: list
-  content:
-    - layout: right
-      title: MixCon Architecture for Long-Context Modeling
-      quote: > 
-        "Redefining efficiency frontiers in long-sequence processing through control-inspired adaptive mechanisms"
-      description: |
-        - Proposed Conba architecture integrating control theory principles (feedback loops, adaptive gain) with sequence modeling, achieving 40% faster convergence than Transformer baselines<br>
-        - Designed MixCon hybrid architecture combining Conba layers, Transformer blocks, and dynamic MoE routing, enabling 128K-token context processing on single GPUs<br>
-        - Implemented hardware-aware kernel optimizations achieving 1.5× throughput over Jamba and 4.5× over Mixtral on A800 GPUs<br>
-        - Attained SOTA on HellaSwag (89.3) and WinoGrande (87.6) while reducing memory overhead by 63% through selective state updates
+    layout: list
+    content:
+      - layout: right
+        title: MixCon Architecture for Long-Context Modeling
+        quote: >
+          "Redefining efficiency frontiers in long-sequence processing through
+          control-inspired adaptive mechanisms"
+        description: >
+          - Proposed Conba architecture integrating control theory principles
+          (feedback loops, adaptive gain) with sequence modeling, achieving 40%
+          faster convergence than Transformer baselines<br>
 
-    - layout: right
-      title: Vision Conba (ViC) for Multimodal Understanding
-      quote: > 
-        "Bridging local-global visual semantics through biologically inspired state propagation"
-      description: |
-        - Developed SBSM module enabling simultaneous local feature preservation and global context aggregation<br>
-        - Achieved 85.4% ImageNet top-1 accuracy (11.9% absolute improvement) via adaptive receptive field control<br>
-        - Designed shift-equivariant Conba blocks reducing texture bias by 38% compared to standard CNNs<br>
-        - Extended to detection/segmentation tasks: ViC-T attained 58.9 box AP on COCO (4.2 gain over Swin-L) with 30% fewer FLOPs
+          - Designed MixCon hybrid architecture combining Conba layers, Transformer blocks, and dynamic MoE routing, enabling 128K-token context processing on single GPUs<br>
 
-    - layout: right
-      title: Video Conba for Spatiotemporal Modeling
-      quote: > 
-        "Temporal reasoning meets control-theoretic stability in video architectures"
-      description: |
-        - Created 3D-Conba blocks combining causal/non-causal temporal modeling with spatial SSMs<br>
-        - Introduced differential positional encoding adapting to motion magnitudes (3.2% accuracy boost)<br>
-        - Achieved 82.1% on Kinetics-400 (2.0% over ViT-L) with 45% less memory consumption<br>
-        - Demonstrated 6.1% superiority over ViS4mer in 10-minute video understanding tasks through multiscale state compression
+          - Implemented hardware-aware kernel optimizations achieving 1.5× throughput over Jamba and 4.5× over Mixtral on A800 GPUs<br>
 
-    - layout: right
-      title: Conba4D for 4D Perception
-      quote: > 
-        "Spatiotemporal intelligence through decoupled hierarchical state spaces"
-      description: |
-        - Developed disentangled spatial-temporal Conba modules enabling efficient 4D processing<br>
-        - Introduced dynamic kernel adjustment reducing GPU memory by 87.5% in 256-frame sequences<br>
-        - Achieved 93.23% on MSR-Action3D (SOTA) via learnable spatiotemporal scanning strategies<br>
-        - Enabled real-time 4D perception at 58 FPS (5.36× speedup) while maintaining 94% of offline accuracy
+          - Attained SOTA on HellaSwag (89.3) and WinoGrande (87.6) while reducing memory overhead by 63% through selective state updates
+      - layout: right
+        title: Vision Conba (ViC) for Multimodal Understanding
+        quote: >
+          "Bridging local-global visual semantics through biologically inspired
+          state propagation"
+        description: >
+          - Developed SBSM module enabling simultaneous local feature
+          preservation and global context aggregation<br>
 
-            
+          - Achieved 85.4% ImageNet top-1 accuracy (11.9% absolute improvement) via adaptive receptive field control<br>
+
+          - Designed shift-equivariant Conba blocks reducing texture bias by 38% compared to standard CNNs<br>
+
+          - Extended to detection/segmentation tasks: ViC-T attained 58.9 box AP on COCO (4.2 gain over Swin-L) with 30% fewer FLOPs
+      - layout: right
+        title: Video Conba for Spatiotemporal Modeling
+        quote: >
+          "Temporal reasoning meets control-theoretic stability in video
+          architectures"
+        description: >
+          - Created 3D-Conba blocks combining causal/non-causal temporal
+          modeling with spatial SSMs<br>
+
+          - Introduced differential positional encoding adapting to motion magnitudes (3.2% accuracy boost)<br>
+
+          - Achieved 82.1% on Kinetics-400 (2.0% over ViT-L) with 45% less memory consumption<br>
+
+          - Demonstrated 6.1% superiority over ViS4mer in 10-minute video understanding tasks through multiscale state compression
+      - layout: right
+        title: Conba4D for 4D Perception
+        quote: >
+          "Spatiotemporal intelligence through decoupled hierarchical state spaces"
+        description: >+
+          - Developed disentangled spatial-temporal Conba modules enabling
+          efficient 4D processing<br>
+
+          - Introduced dynamic kernel adjustment reducing GPU memory by 87.5% in 256-frame sequences<br>
+
+          - Achieved 93.23% on MSR-Action3D (SOTA) via learnable spatiotemporal scanning strategies<br>
+
+          - Enabled real-time 4D perception at 58 FPS (5.36× speedup) while maintaining 94% of offline accuracy
+
+              
   - title: Education
     layout: list
     content:
       - layout: top-right
         title: Peking University
-        sub_title: Ph.D. in Computer Science and Technology (Intelligent Science and Technology)
+        sub_title: Ph.D. in Computer Science and Technology (Intelligent Science and
+          Technology)
         caption: 2020 -- 2025
-        quote: >
-          
-        description: | # this will include new lines to allow paragraphs
-          Research Focus: Large Language Models (LLMs), Sequence Modeling, State Space Models
-    
+        quote: ""
+        description: >
+          Research Focus: Large Language Models (LLMs), Sequence Modeling,
+          State Space Models
       - layout: top-right
         title: Tsinghua University
         sub_title: Master's Degree, Instrumentation and Measurement Engineering
         caption: 2017 -- 2020
-        quote: >
-          
-        description: | # this will include new lines to allow paragraphs
+        quote: ""
+        description: |
           Research Focus: Machine Learning, Deep Learning, Computer Vision
-
       - layout: top-right
         title: Shandong University
         sub_title: Bachelor's Degree, Measurement and Control Technology and Instruments
         caption: 2013 -- 2017
-        quote: >
-          
-        description: | # this will include new lines to allow paragraphs
+        quote: ""
+        description: |
           Research Focus: Control Theory and Control Engineering, Robotics
-          
   - title: Papers
     layout: text
-    content: | # this will include new lines to allow paragraphs
-  - Xin Xu, and Zhouchen Lin. "MixCon: A Hybrid Architecture for Efficient and Adaptive Sequence Modeling." European Conference on Artificial Intelligence, 2024.
-  
-  - Xin Xu, and Zhouchen Lin. "Vision Conba: An Efficient and Adaptive Vision Sequence Analysis Framework."
-
-  - Xin Xu, Yisen wang and Zhouchen Lin. "VideoConba: An Efficient and Adaptive Framework for Video Understanding."
-
-  - Xin Xu, and Zhouchen Lin. "Learning Nonseparable Sparse Regularizers via Multivariate Activation Functions." 
+    content: >
+      - Xin Xu, and Zhouchen Lin. "MixCon: A Hybrid Architecture for
+      Efficient and Adaptive Sequence Modeling." European Conference on
+      Artificial Intelligence, 2024.
 
 
+      - Xin Xu, and Zhouchen Lin. "Vision Conba: An Efficient and Adaptive Vision Sequence Analysis Framework."
+
+
+      - Xin Xu, Yisen wang and Zhouchen Lin. "VideoConba: An Efficient and Adaptive Framework for Video Understanding."
+
+
+      - Xin Xu, and Zhouchen Lin. "Learning Nonseparable Sparse Regularizers via Multivariate Activation Functions." 
   - title: 发明专利
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       - 林宙辰，徐鑫. 基于凸多面体分段线性分类的二叉划分树车牌识别方法. 公开号：CN111598080A.
 
       - 林宙辰，徐鑫. 基于多元激活函数的稀疏正则化神经网络的图像分类方法. 公开号：CN113313175A.
-      
-
-# Footer
 footer_show_references: true
 references_title: https://jack-shinn.github.io/xuxinpku_resume.github.io/
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml
