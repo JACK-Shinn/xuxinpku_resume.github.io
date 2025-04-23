@@ -63,40 +63,40 @@ content:
       quote: > 
         "Redefining efficiency frontiers in long-sequence processing through control-inspired adaptive mechanisms"
       description: |
-        • Proposed Conba architecture integrating control theory principles (feedback loops, adaptive gain) with sequence modeling, achieving 40% faster convergence than Transformer baselines<br>
-        • Designed MixCon hybrid architecture combining Conba layers, Transformer blocks, and dynamic MoE routing, enabling 128K-token context processing on single GPUs<br>
-        • Implemented hardware-aware kernel optimizations achieving 1.5× throughput over Jamba and 4.5× over Mixtral on A800 GPUs<br>
-        • Attained SOTA on HellaSwag (89.3) and WinoGrande (87.6) while reducing memory overhead by 63% through selective state updates
+        - Proposed Conba architecture integrating control theory principles (feedback loops, adaptive gain) with sequence modeling, achieving 40% faster convergence than Transformer baselines<br>
+        - Designed MixCon hybrid architecture combining Conba layers, Transformer blocks, and dynamic MoE routing, enabling 128K-token context processing on single GPUs<br>
+        - Implemented hardware-aware kernel optimizations achieving 1.5× throughput over Jamba and 4.5× over Mixtral on A800 GPUs<br>
+        - Attained SOTA on HellaSwag (89.3) and WinoGrande (87.6) while reducing memory overhead by 63% through selective state updates
 
     - layout: right
       title: Vision Conba (ViC) for Multimodal Understanding
       quote: > 
         "Bridging local-global visual semantics through biologically inspired state propagation"
       description: |
-        • Developed SBSM module enabling simultaneous local feature preservation and global context aggregation<br>
-        • Achieved 85.4% ImageNet top-1 accuracy (11.9% absolute improvement) via adaptive receptive field control<br>
-        • Designed shift-equivariant Conba blocks reducing texture bias by 38% compared to standard CNNs<br>
-        • Extended to detection/segmentation tasks: ViC-T attained 58.9 box AP on COCO (4.2 gain over Swin-L) with 30% fewer FLOPs
+        - Developed SBSM module enabling simultaneous local feature preservation and global context aggregation<br>
+        - Achieved 85.4% ImageNet top-1 accuracy (11.9% absolute improvement) via adaptive receptive field control<br>
+        - Designed shift-equivariant Conba blocks reducing texture bias by 38% compared to standard CNNs<br>
+        - Extended to detection/segmentation tasks: ViC-T attained 58.9 box AP on COCO (4.2 gain over Swin-L) with 30% fewer FLOPs
 
     - layout: right
       title: Video Conba for Spatiotemporal Modeling
       quote: > 
         "Temporal reasoning meets control-theoretic stability in video architectures"
       description: |
-        • Created 3D-Conba blocks combining causal/non-causal temporal modeling with spatial SSMs<br>
-        • Introduced differential positional encoding adapting to motion magnitudes (3.2% accuracy boost)<br>
-        • Achieved 82.1% on Kinetics-400 (2.0% over ViT-L) with 45% less memory consumption<br>
-        • Demonstrated 6.1% superiority over ViS4mer in 10-minute video understanding tasks through multiscale state compression
+        - Created 3D-Conba blocks combining causal/non-causal temporal modeling with spatial SSMs<br>
+        - Introduced differential positional encoding adapting to motion magnitudes (3.2% accuracy boost)<br>
+        - Achieved 82.1% on Kinetics-400 (2.0% over ViT-L) with 45% less memory consumption<br>
+        - Demonstrated 6.1% superiority over ViS4mer in 10-minute video understanding tasks through multiscale state compression
 
     - layout: right
       title: Conba4D for 4D Perception
       quote: > 
         "Spatiotemporal intelligence through decoupled hierarchical state spaces"
       description: |
-        • Developed disentangled spatial-temporal Conba modules enabling efficient 4D processing<br>
-        • Introduced dynamic kernel adjustment reducing GPU memory by 87.5% in 256-frame sequences<br>
-        • Achieved 93.23% on MSR-Action3D (SOTA) via learnable spatiotemporal scanning strategies<br>
-        • Enabled real-time 4D perception at 58 FPS (5.36× speedup) while maintaining 94% of offline accuracy
+        - Developed disentangled spatial-temporal Conba modules enabling efficient 4D processing<br>
+        - Introduced dynamic kernel adjustment reducing GPU memory by 87.5% in 256-frame sequences<br>
+        - Achieved 93.23% on MSR-Action3D (SOTA) via learnable spatiotemporal scanning strategies<br>
+        - Enabled real-time 4D perception at 58 FPS (5.36× speedup) while maintaining 94% of offline accuracy
 
             
   - title: Education
