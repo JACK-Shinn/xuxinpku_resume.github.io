@@ -6,13 +6,13 @@ title: Computer Science and Technology (Intelligent Science and Technology)
 email: xuxinpkucs@gmail.com
 phone: (+86) 13407228245
 darkmode: false
-github_username: JACK-Shinn
+# github_username: JACK-Shinn
 about_profile_image: images/xuxin_me.jpg
 about_content: >
   Ph.D. in Artificial Intelligence, School of Intelligence Science
   and Technology, Peking University (2020–2025), specializing in large language
   models (LLMs) and sequence modeling, where I pioneered architectures for
-  efficient long-context reasoning, Advised by Prof. Zhouchen Lin (IEEE Fellow).
+  efficient long-context reasoning, advised by Prof. Zhouchen Lin (IEEE Fellow).
   Previously, as an M.S. candidate at Tsinghua University, and hold a B.Eng. in
   Automatic Control (Shandong University, Top 1%). My work bridges theoretical
   innovation (state-space models, hybrid expert systems) with LLM.
