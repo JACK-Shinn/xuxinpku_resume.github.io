@@ -18,7 +18,7 @@ about_content: >
   Holding a B.Eng. in Automatic Control from Shandong University (Top 1%) and prior research at Tsinghua University, my work uniquely merges theoretical advancements in state-space models and hybrid expert systems with practical LLM/vision applications, driving breakthroughs in efficiency, scalability, and multimodal understanding.
 content:
 
-  - title: Experience
+  - title: Internship
   layout: list
   content:
     - layout: right
@@ -40,7 +40,7 @@ content:
         - Enhanced logical reasoning surpassing DeepSeek R1/V3 through self-feedback augmented MoE training<br>
         - Collaborated cross-team to deploy X1 Turbo with 0.83s latency (-40% vs 4.5 Turbo) and 25% API cost of competitors
 
-  - title: Experience
+  - title: Research Experience
     layout: list
     content:
       - layout: right
