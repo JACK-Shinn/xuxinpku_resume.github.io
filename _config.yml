@@ -6,40 +6,51 @@ title: Computer Science and Technology (Intelligent Science and Technology)
 email: xuxinpkucs@gmail.com
 phone: (+86) 13407228245
 darkmode: false
-# github_username: JACK-Shinn
 about_profile_image: images/xuxin_me.jpg
 about_content: >
-  Ph.D. candidate in Artificial Intelligence at the School of Intelligence Science and Technology, Peking University (2020–2025), under the supervision of Prof. Zhouchen Lin (IEEE Fellow). Specializing in large language models (LLMs) and sequence modeling, I have pioneered groundbreaking architectures to revolutionize efficient long-context reasoning and spatiotemporal intelligence.
-  
+  Ph.D. candidate in Artificial Intelligence at the School of
+  Intelligence Science and Technology, Peking University (2020–2025), under the
+  supervision of Prof. Zhouchen Lin (IEEE Fellow). Specializing in large
+  language models (LLMs) and sequence modeling, I have pioneered groundbreaking
+  architectures to revolutionize efficient long-context reasoning and
+  spatiotemporal intelligence.
+
   As a trailblazer in adaptive sequence modeling, I developed the MixCon hybrid architecture, integrating control theory-inspired feedback mechanisms with Transformer layers and dynamic MoE routing. This innovation enables single-GPU processing of 128K-token sequences, achieving 1.5× throughput over Jamba and 4.5× over Mixtral on A800 GPUs, while setting new SOTA on HellaSwag (89.3) and WinoGrande (87.6) with 63% reduced memory overhead. My work on Vision Conba (ViC) bridges local visual details and global semantics through a selective bidirectional state model, achieving an 11.9% leap in ImageNet top-1 accuracy (85.4%) and 58.9 box AP on COCO with 30% fewer FLOPs than state-of-the-art baselines.
-  
+
   For video and 4D perception, I designed Video Conba to integrate 3D convolutional dynamics with control-theoretic stability, boosting Kinetics-400 accuracy to 82.1% (2.0% over ViT-L) with 45% less memory. My Conba4D framework further decouples spatiotemporal modeling for efficient 4D point cloud processing, achieving 93.23% accuracy on MSR-Action3D (SOTA) while enabling real-time inference at 58 FPS—5.36× faster than prior art—with 87.5% reduced GPU memory usage.
-  
+
   Holding a B.Eng. in Automatic Control from Shandong University (Top 1%) and prior research at Tsinghua University, my work uniquely merges theoretical advancements in state-space models and hybrid expert systems with practical LLM/vision applications, driving breakthroughs in efficiency, scalability, and multimodal understanding.
 content:
-
   - title: Internship
-  layout: list
-  content:
-    - layout: right
-      title: Baidu MEG - Large Model NLP Algorithms
-      quote: >
-        "Redefining industrial recommendation systems through cascaded representation learning and generative retrieval"
-      description: >
-        - Core contributor of COBRA framework proposing sparse-dense cascaded representation and RQ-VAE, boosting CVR by 3.6% and ARPU by 4.15%<br>
-        - Innovated dynamic sparse ID-guided dense vector refinement mechanism achieving 12.3% NDCG@10 improvement and 9.8% CTR gain over Google TIGER<br>
-        - Developed coarse-to-fine generative retrieval pipeline reducing inference latency to 32ms (-41%) with 24k QPS per node (30× throughput increase)
-
-    - layout: right
-      title: Baidu TPG - X1 Turbo Development
-      quote: >
-        "Pioneering closed-loop training-generation framework for industrial-scale LLM optimization"
-      description: >
-        - Architected MixCon integration into X1 Turbo establishing "Train-Generate-Feedback-Enhance" loop, accelerating CLUE benchmark inference by 37%<br>
-        - Achieved 5.4× training throughput and 8× inference speedup over 4.5 Turbo with 40% VRAM reduction<br>
-        - Enhanced logical reasoning surpassing DeepSeek R1/V3 through self-feedback augmented MoE training<br>
-        - Collaborated cross-team to deploy X1 Turbo with 0.83s latency (-40% vs 4.5 Turbo) and 25% API cost of competitors
-
+    layout: list
+    content:
+      - layout: right
+        title: Baidu MEG - Large Model NLP Algorithms
+        quote: >
+          "Redefining industrial recommendation systems through cascaded
+          representation learning and generative retrieval"
+        description: >
+          - Core contributor of COBRA framework proposing sparse-dense
+          cascaded representation and RQ-VAE, boosting CVR by 3.6% and ARPU by
+          4.15%<br> - Innovated dynamic sparse ID-guided dense vector refinement
+          mechanism achieving 12.3% NDCG@10 improvement and 9.8% CTR gain over
+          Google TIGER<br> - Developed coarse-to-fine generative retrieval
+          pipeline reducing inference latency to 32ms (-41%) with 24k QPS per
+          node (30× throughput increase)
+      - layout: right
+        title: Baidu TPG - X1 Turbo Development
+        quote: >
+          "Pioneering closed-loop training-generation framework for
+          industrial-scale LLM optimization"
+        description: >
+          - Architected MixCon integration into X1 Turbo establishing
+          "Train-Generate-Feedback-Enhance" loop, accelerating CLUE benchmark
+          inference by 37%<br> - Achieved 5.4× training throughput and 8×
+          inference speedup over 4.5 Turbo with 40% VRAM reduction<br> -
+          Enhanced logical reasoning surpassing DeepSeek R1/V3 through
+          self-feedback augmented MoE training<br> - Collaborated cross-team to
+          deploy X1 Turbo with 0.83s latency (-40% vs 4.5 Turbo) and 25% API
+          cost of competitors
   - title: Research Experience
     layout: list
     content:
@@ -118,19 +129,22 @@ content:
         sub_title: Master's Degree, Instrumentation and Measurement Engineering
         caption: 2017 -- 2020
         quote: ""
-        description: |
-          Research Focus: Machine Learning, Deep Learning, Natural Language Processing
+        description: >
+          Research Focus: Machine Learning, Deep Learning, Natural Language
+          Processing
       - layout: top-right
         title: Shandong University
         sub_title: Bachelor's Degree, Measurement and Control Technology and Instruments
         caption: 2013 -- 2017
         quote: ""
-        description: |
+        description: >
           Research Focus: Control Theory and Control Engineering, Computer Vision
   - title: Papers
     layout: text
     content: >
-      - Xin Xu, Zhouchen Lin. "MixCon: A Hybrid Architecture for Efficient and Adaptive Sequence Modeling." European Conference on Artificial Intelligence, ECAI 2024.
+      - Xin Xu, Zhouchen Lin. "MixCon: A Hybrid Architecture for Efficient
+      and Adaptive Sequence Modeling." European Conference on Artificial
+      Intelligence, ECAI 2024.
 
       - Xin Xu, Zhouchen Lin. "Vision Conba: An Efficient and Adaptive Vision Sequence Analysis Framework."
 
@@ -143,7 +157,7 @@ content:
       - Fan Zhu, Lin Ma, Xin Xu, Dingfeng Guo, Xiao Cui, Qi Kong. Baidu apollo auto-calibration system-an industry-level data-driven and learning based vehicle longitude dynamic calibrating algorithm. arXiv preprint arXiv:1808.10134, 2018.
 
       - Fan Zhu, Xin Xu, Lin Ma, Dingfeng Guo, Xiao Cui, Qi Kong. Autonomous driving vehicle control auto-calibration system: An industry-level, data-driven and learning-based vehicle longitudinal dynamic calibrating algorithm.
-      
+
       - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). Lane Keeping Algorithm for Autonomous Driving via Safe Reinforcement Learning. International Conference on Knowledge Science, Engineering and Management (KSEM), 2021. 
 
       - Qi Kong, Xin Xu (co-first author), Liangliang Zhang. ODNASSD: An End-to-end Object Detection Neural Architecture Search Space Design. IEEE International Intelligent Transportation Systems Conference (ITSC), 2021. 
@@ -161,9 +175,9 @@ content:
       - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). Control algorithm of path planning and path tracking for automated valet parking. Journal of Physics: Conference Series, 2022. 
 
       - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). Outdoor real-time RGBD sensor fusion of stereo camera and sparse lidar. Journal of Physics: Conference Series, 2022. 
-      
+
       - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). Vehicle Localization with Surveillance Cameras. IEEE International Conference on Vision, Image and Signal Processing (ICVISP), 2021.
-      
+
       - VPNet: Vision and Planning Network for Robotic Navigation. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. 
 
       - Qi Kong, Xin Xu (co-first author), Liangliang Zhang. MEMA-NAS: Memory-Efficient Multi-Agent Neural Architecture Search, PRCV 2021.
@@ -177,43 +191,43 @@ content:
       -CN113313175B，基于多元激活函数的稀疏正则化神经网络的图像分类方法。
 
       -CN112896191B，轨迹处理方法、装置、电子设备和计算机可读介质
-      
+
       -CN113119996B，一种轨迹预测方法、装置、电子设备及存储介质
-      
+
       -CN113548052B，无人驾驶车辆换道控制方法和装置 
-      
+
       -CN113978548B，应用于无人车的转向协同控制方法、装置、设备及介质
-  
+
       -CN113561972B，一种避障控制方法、装置、车辆和存储介质
-  
+
       -CN114664098B，一种路权分配方法和装置
-  
+
       -CN113031600B，一种轨迹生成方法、装置、存储介质及电子设备
-  
+
       -CN113807351B，一种场景文字检测方法和装置
-  
+
       -CN113838113B，三维物体识别方法和装置
-  
+
       -CN113691606B，任务卸载方法、装置、电子设备、系统和存储介质
-  
+
       -CN113780270B，目标检测方法和装置
-  
+
       -CN114261400B，一种自动驾驶决策方法、装置、设备和存储介质
-  
+
       -CN114212104B，车辆控制方法、装置、车辆和存储介质
-  
+
       -CN113849400B，一种测试场景库生成方法、装置、设备及存储介质
-  
+
       -CN113989757B，辅助驾驶方法、装置、电子设备及存储介质
-  
+
       -CN114889603B，一种车辆换道处理方法和装置
- 
+
       -CN114580539B，一种车辆驾驶策略处理方法和装置
-  
+
       -CN114675655B，一种车辆控制方法及装置
 
       实质审查中专利：
-      
+
       -CN119625407A，一种基于自适应控制状态空间模型的图像分类方法。
 
       -CN114581868A，基于模型通道剪枝的图像分析方法和装置
