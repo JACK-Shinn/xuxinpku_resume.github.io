@@ -107,19 +107,43 @@ content:
   - title: Papers
     layout: text
     content: >
-      - Xin Xu, and Zhouchen Lin. "MixCon: A Hybrid Architecture for
-      Efficient and Adaptive Sequence Modeling." European Conference on
-      Artificial Intelligence, 2024.
+      - Xin Xu, Zhouchen Lin. "MixCon: A Hybrid Architecture for Efficient and Adaptive Sequence Modeling." European Conference on Artificial Intelligence, ECAI 2024.
 
+      - Xin Xu, Zhouchen Lin. "Vision Conba: An Efficient and Adaptive Vision Sequence Analysis Framework."
 
-      - Xin Xu, and Zhouchen Lin. "Vision Conba: An Efficient and Adaptive Vision Sequence Analysis Framework."
+      - Xin Xu, Yisen wang, Zhouchen Lin. "VideoConba: An Efficient and Adaptive Framework for Video Understanding."
 
+      - Xin Xu, Zhouchen Lin. "Learning Nonseparable Sparse Regularizers via Multivariate Activation Functions." 
 
-      - Xin Xu, Yisen wang and Zhouchen Lin. "VideoConba: An Efficient and Adaptive Framework for Video Understanding."
+      - Haiming Wang, Liangliang Zhang, Qi Kong, Weicheng Zhu, Jie Zheng, Li Zhuang and Xin Xu (Corresponding Author). Motion planning in complex urban environments: An industrial application on autonomous last‐mile delivery vehicles. Journal of Field Robotics (JFR), 2022. (Impact Factor: 8.3, Q1)
 
+      - Fan Zhu, Lin Ma, Xin Xu, Dingfeng Guo, Xiao Cui, Qi Kong. Baidu apollo auto-calibration system-an industry-level data-driven and learning based vehicle longitude dynamic calibrating algorithm. arXiv preprint arXiv:1808.10134, 2018.
 
-      - Xin Xu, and Zhouchen Lin. "Learning Nonseparable Sparse Regularizers via Multivariate Activation Functions." 
-  - title: 发明专利
+      - Fan Zhu, Xin Xu, Lin Ma, Dingfeng Guo, Xiao Cui, Qi Kong. Autonomous driving vehicle control auto-calibration system: An industry-level, data-driven and learning-based vehicle longitudinal dynamic calibrating algorithm.
+      
+      - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). Lane Keeping Algorithm for Autonomous Driving via Safe Reinforcement Learning. International Conference on Knowledge Science, Engineering and Management (KSEM), 2021. 
+
+      - Qi Kong, Xin Xu (co-first author), Liangliang Zhang. ODNASSD: An End-to-end Object Detection Neural Architecture Search Space Design. IEEE International Intelligent Transportation Systems Conference (ITSC), 2021. 
+
+      - Xin Xu, Liangliang Zhang, Qi Kong. Learning Bilevel Sparse Regularized Neural Network. CAAI International Conference on Artificial Intelligence, 2021.
+
+      - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). MITNet: Multi-intention Trajectory Network for Motion Prediction. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. (Best Paper Award)
+
+      - Xin Xu, Liangliang Zhang, Qi Kong, Chenguang Gui, Xing Zhang. Enhanced-historical average for long-term prediction. IEEE International Conference on Computer, Control and Robotics (ICCCR), 2022.
+
+      - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). Constrained policy optimization algorithm for autonomous driving via reinforcement learning. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. 
+
+      - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). VPNet: Vision and Planning Network for Robotic Navigation. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. 
+
+      - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). Control algorithm of path planning and path tracking for automated valet parking. Journal of Physics: Conference Series, 2022. 
+
+      - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). Outdoor real-time RGBD sensor fusion of stereo camera and sparse lidar. Journal of Physics: Conference Series, 2022. 
+      
+      - Qi Kong, Liangliang Zhang, Xin Xu (Corresponding Author). Vehicle Localization with Surveillance Cameras. IEEE International Conference on Vision, Image and Signal Processing (ICVISP), 2021.
+      
+      - VPNet: Vision and Planning Network for Robotic Navigation. IEEE International Conference on Image, Vision and Computing (ICIVC), 2021. 
+
+      - Qi Kong, Xin Xu (co-first author), Liangliang Zhang. MEMA-NAS: Memory-Efficient Multi-Agent Neural Architecture Search, PRCV 2021.
     layout: text
     content: |
       已授权专利：
